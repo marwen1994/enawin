@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginRegister.Register2"
+    android:background="@drawable/back">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical">
+
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp"
+            android:src="@drawable/point" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_gravity="center">
+
+            <com.rilixtech.CountryCodePicker
+                android:id="@+id/ccp"
+                android:layout_width="wrap_content"
+                android:layout_height="41dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="39dp"
+                app:ccp_defaultNameCode="tn" />
+
+            <EditText
+                android:id="@+id/Phone"
+                android:layout_width="200dp"
+                android:layout_height="50dp"
+
+                android:layout_alignBottom="@+id/ccp"
+                android:layout_alignEnd="@+id/log"
+                android:background="@drawable/edittext"
+                android:hint="Phone Number"
+                android:inputType="number"
+                android:textColor="@android:color/tab_indicator_text"
+                android:textColorHint="@color/md_grey_500" />
+
+            <Button
+                android:id="@+id/log"
+                android:layout_width="330dp"
+
+                android:layout_height="50dp"
+
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="93dp"
+                android:background="@drawable/bg_rectangle_edittext"
+                android:text="Sing Up"
+                android:textColor="#FFF" />
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="331dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="120dp"
+                android:background="@android:color/white"
+                android:text="Add Your Location"
+                android:textColor="@color/y" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignStart="@+id/ccp"
+                android:layout_marginTop="90dp"
+                android:text="Please Pick the city That You are belong" />
+        </RelativeLayout>
+
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

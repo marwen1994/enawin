@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginRegister.LoginActivity"
+    android:background="@drawable/back">
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="18dp"
+            android:background="@drawable/edittext"
+
+            android:hint="E-mail adress"
+            android:inputType="textPassword"
+            android:padding="10dp"
+            android:textColor="@android:color/tab_indicator_text"
+            android:textColorHint="@color/md_grey_500" />
+
+        <EditText
+            android:id="@+id/pass"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="18dp"
+            android:background="@drawable/edittext"
+
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:padding="10dp"
+            android:textColor="@android:color/tab_indicator_text"
+            android:textColorHint="@color/md_grey_500" />
+
+
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/log"
+        android:layout_width="330dp"
+
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="135dp"
+        android:background="@drawable/bg_rectangle_edittext"
+        android:text="Login"
+        android:textColor="#FFF" />
+
+    <TextView
+        android:id="@+id/sing"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="89dp"
+        android:text="Not a member,Sing Up for free !"
+        android:textColor="@color/y"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        app:srcCompat="@drawable/log" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="150dp"
+        android:fontFamily="cursive"
+        android:text="Ane Win "
+        android:textColor="@color/y"
+        android:textSize="40dp"
+        android:textStyle="bold" />
+
+</RelativeLayout>
