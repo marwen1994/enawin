@@ -41,7 +41,7 @@
                 app:ccp_defaultNameCode="tn" />
 
             <EditText
-                android:id="@+id/Phone"
+                android:id="@+id/phone"
                 android:layout_width="200dp"
                 android:layout_height="50dp"
 
@@ -50,7 +50,7 @@
                 android:background="@drawable/edittext"
                 android:hint="Phone Number"
                 android:inputType="number"
-                android:textColor="@android:color/tab_indicator_text"
+                android:textColor="@android:color/black"
                 android:textColorHint="@color/md_grey_500" />
 
             <Button
@@ -74,7 +74,7 @@
                 android:layout_centerHorizontal="true"
                 android:layout_marginTop="120dp"
                 android:background="@android:color/white"
-                android:text="Add Your Location"
+                android:text="Choose"
                 android:textColor="@color/y" />
 
             <TextView
@@ -84,7 +84,7 @@
                 android:layout_alignParentTop="true"
                 android:layout_alignStart="@+id/ccp"
                 android:layout_marginTop="90dp"
-                android:text="Please Pick the city That You are belong" />
+                android:text="please choose which type of user you are " />
         </RelativeLayout>
 
 

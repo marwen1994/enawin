@@ -1,4 +1,8 @@
 <resources>
     <string name="app_name">Ana Win</string>
     <string name="Key">AIzaSyBpsqaE8nfLTyRmDB6FqBlvPpqC4Estr3E</string>
+        <string-array name="shopping_item">
+        <item>Simple user</item>
+        <item>Volunteer</item>
+      </string-array>
 </resources>

@@ -22,19 +22,18 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <meta-data android:name="com.google.android.geo.API_KEY"
-            android:value="AIzaSyAJVUpyl3T8nkYj0-zo6vHjnM8pbConGvA" />
-        <activity android:name=".LoginRegister.LoginActivity">
+        <activity android:name=".LoginRegister.Splash">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".LoginRegister.Splash" />
-        <activity android:name=".LoginRegister.Register2" />
-        <activity android:name=".LoginRegister.Register" />
-        <activity android:name=".Location.MapBox"></activity>
+        <activity android:name=".LoginRegister.LoginActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".LoginRegister.Register" android:screenOrientation="portrait" />
+        <activity android:name=".LoginRegister.Register2" android:screenOrientation="portrait" />
+        <activity android:name=".Location.MapBox" android:screenOrientation="portrait"></activity>
     </application>
 
 

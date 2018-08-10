@@ -53,6 +53,15 @@ dependencies {
 
     implementation 'com.jackandphantom.android:customtogglebutton:1.0.0'
     implementation 'com.codemybrainsout.placesearchdialog:placesearch:1.0.1'
+    implementation 'com.android.volley:volley:1.0.0'
+    implementation 'com.rm:rmswitch:1.2.2'
+    implementation 'com.asksira.android:dropdownview:1.0.3'
+    implementation 'com.github.Joinersa:OoOAlertDialog:1.0.3'
+    implementation 'com.github.johnpersano:supertoasts:2.0'
+    implementation 'com.github.d-max:spots-dialog:0.7@aar'
+
+
+
 
 
 

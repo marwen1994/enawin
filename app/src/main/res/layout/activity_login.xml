@@ -24,7 +24,6 @@
             android:background="@drawable/edittext"
 
             android:hint="E-mail adress"
-            android:inputType="textPassword"
             android:padding="10dp"
             android:textColor="@android:color/tab_indicator_text"
             android:textColorHint="@color/md_grey_500" />
@@ -67,7 +66,7 @@
         android:layout_marginBottom="89dp"
         android:text="Not a member,Sing Up for free !"
         android:textColor="@color/y"
-        android:textSize="15dp"
+        android:textSize="17dp"
         android:textStyle="bold" />
 
     <ImageView
