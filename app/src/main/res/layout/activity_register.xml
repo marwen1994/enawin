@@ -15,7 +15,7 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_marginTop="21dp"
-        android:text="Join Ana Win"
+        android:text="Join Ena Win"
         android:textAlignment="center"
         android:textColor="@color/y"
         android:textSize="30dp"
